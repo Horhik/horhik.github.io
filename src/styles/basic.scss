@@ -1,0 +1,25 @@
+body{
+  font-family: $main-font;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  position: relative;
+}
+.h1{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: $dark-font;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+}
