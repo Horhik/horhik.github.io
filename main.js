@@ -37,26 +37,15 @@ for (let i = 1; i <= count; i++){
 
 resetButton.addEventListener('click', () => {
 count += 20 ;
-
 pi = Math.PI
-
 step = 1;
-
 ang = 0
-
 nums = []
-
 multiplier += 1;
-
 centerx = window.innerWidth/2;
-
 centery = (window.innerHeight - 200)/2 
-
 R = centery/1.2;
-
 length = pi * R
-
-multiplier++
 for (let i = 1; i <= count; i++){
   ang += pi / (count / multiplier / 2)
   let numx =  centerx + (Math.sin(ang) * R)
@@ -76,11 +65,12 @@ if (play) {
 
   nums.forEach(num => {
     ellipse(num.x,num.y, 5);
-    let next =  num.num * multiplier > count ? num.num * multiplier - (~~(num.num * multiplier / count) * count)  : num.num * multiplier;
+    let next =  num.num * multiplier > count ? num.num * multiplier - (~~(num.num * multiplier / count) * count) : num.num * multiplier;
 
     try{
-    let nx = nums[next - 1].x
-    let ny = nums[next - 1].y
+    let n = next - 1 < 0 ? 0 : next -1;
+    let nx = nums[n].x
+    let ny = nums[n].y
     let x = num.x
     let y = num.y
     line (nx, ny, x, y)
