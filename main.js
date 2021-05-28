@@ -1,12 +1,7 @@
-// let playButton = document.querySelector('.play');
 let resetButton = document.querySelector('.reset');
 
 let play =true 
-// playButton.addEventListener('click', () => {
 
-//   play = !play;
-//   console.log('click', play)
-// })
 let wiw 
 let wih 
 function setup() {
