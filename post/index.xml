@@ -5,12 +5,29 @@
     <link>https://horhik.github.io/post/</link>
       <atom:link href="https://horhik.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 28 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://horhik.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://horhik.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Suffering</title>
+      <link>https://horhik.github.io/post/my-past-week-may/</link>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://horhik.github.io/post/my-past-week-may/</guid>
+      <description>&lt;h1 id=&#34;my-soul-is-suffering&#34;&gt;My soul is suffering&lt;/h1&gt;
+&lt;p&gt;Being an atom machine programmer is a challenging task that requires a high level of skill and
+attention to detail. It can be a rewarding career path, but it can also be frustrating and
+demanding, especially if the programmer is working with limited resources or facing difficult
+technical problems.&lt;/p&gt;
+&lt;p&gt;While some may view the atom machine programmer as a &amp;ldquo;poor soul,&amp;rdquo; it is important to recognize
+the value of their work and the contributions they make to the field of computer science.
+These programmers play a critical role in developing and improving the software and hardware
+that power our digital world.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Работа с библиографией</title>
